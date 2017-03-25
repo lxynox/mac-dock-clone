@@ -1,16 +1,16 @@
 {
-	"name": "mac-navbar-clone",
+	"name": "mac-dock-clone",
 	"version": "0.0.1",
 	"main": "./lib/main.js",
 	"repository": {
-		"url": "git@gh-lxynox:lxynox/mac-navbar-clone.git",
+		"url": "git@gh-lxynox:lxynox/mac-dock-clone.git",
 		"type": "git"
 	},
 	"author": "lxynox <lxynox@gmail.com>",
 	"license": "MIT",
 	"scripts": {
 		"dev": "webpack-dev-server --open --hot",
-		"build": "webpack --progress --hide-modules",
+		"build": "NODE_ENV=production webpack --progress --hide-modules",
 		"test": "jest"
 	},
 	"babel": {
